@@ -1,0 +1,27 @@
+.dct-card {
+    border: 1px solid var(--dct-color-card-border);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.dct-card p {
+    color: var(--dct-color-font-secondary);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.dct-card img {
+    width: 260px;
+}
+
+@media (min-width: 576px) {
+    .dct-card p {
+        font-size: 20px;
+    }
+
+    .dct-card img {
+        width: 390px;
+    }
+}

@@ -1,0 +1,34 @@
+#comments-and-footer-section {
+    max-width: 100%;
+}
+
+
+.dct-container h2 {
+    color: var(--dct-color-font-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.dct-comments-color {
+    background-color: var(--dct-color-bg-tertiary);
+}
+
+.title-comments h2 {
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+    .dct-container h2 {
+        font-size: 32px;
+    }
+
+    .title-comments h2 {
+        font-size: 48px;
+    }
+
+    #comments-and-footer-section {
+        padding: 25px 120px;
+    }
+}
